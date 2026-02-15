@@ -1,0 +1,200 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e8907c08-8650-4764-8307-d7b0333da0bd")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 21.59 19.05)
+		(size 12.7 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4ec4bf97-0e00-43d0-a70a-b5e107970827")
+		(property "Sheetname" "computing"
+			(at 21.59 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 21.59 36.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Motor1" input
+			(at 34.29 22.86 0)
+			(uuid "cd98df6d-f4b0-43c2-9e33-ea8bc71a6caf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Motor2" input
+			(at 34.29 25.4 0)
+			(uuid "e7dfe0d8-b0a3-4074-9389-b19f6346a92d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Motor3" input
+			(at 34.29 27.94 0)
+			(uuid "b744b644-3991-4766-a5ec-76463b663705")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Motor4" input
+			(at 34.29 30.48 0)
+			(uuid "b031754a-21de-466d-a82a-a65f9ad6f05f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "auv_pcb"
+				(path "/e8907c08-8650-4764-8307-d7b0333da0bd"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 19.05)
+		(size 12.7 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "67eb7b28-9c7e-48fb-85c1-7cf739f33f6a")
+		(property "Sheetname" "POWER"
+			(at 50.8 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 50.8 36.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+V" output
+			(at 63.5 22.86 0)
+			(uuid "5663db12-135c-43ba-b89e-a3cdc7e15c3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V" output
+			(at 63.5 25.4 0)
+			(uuid "cb629884-36d1-4e22-90f7-de5f2d681e8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "auv_pcb"
+				(path "/e8907c08-8650-4764-8307-d7b0333da0bd"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 20.32)
+		(size 30.48 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c75bd509-78bf-411c-83b5-a0a70668dca0")
+		(property "Sheetname" "motors"
+			(at 81.28 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motors.kicad_sch"
+			(at 81.28 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "auv_pcb"
+				(path "/e8907c08-8650-4764-8307-d7b0333da0bd"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
