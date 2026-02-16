@@ -625,6 +625,10 @@
     [
       "c75bd509-78bf-411c-83b5-a0a70668dca0",
       "motors"
+    ],
+    [
+      "e1e87ec9-f11f-4d9e-a9f0-4c627e156922",
+      "sensing"
     ]
   ],
   "text_variables": {}

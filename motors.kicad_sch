@@ -106,6 +106,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 40.64 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "13dfb87f-823f-4aab-969c-601f96ed5cda")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 40.64 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1407623e-6a47-441e-b0e9-1afc6b2c71ed")
+	)
 	(hierarchical_label "+V"
 		(shape input)
 		(at 40.64 60.96 0)
@@ -127,6 +149,28 @@
 			(justify left)
 		)
 		(uuid "3c614077-4cf0-447a-a4e3-7a301d3e1ef9")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 40.64 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "61e841e9-9fde-4328-afdf-82548e2c5f83")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 40.64 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2bc584d-1aad-45df-8b91-379afa15a96b")
 	)
 	(hierarchical_label "+V"
 		(shape input)
@@ -159,7 +203,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d01cc35-42cf-4e55-9e9b-40c86c573e7f")
-		(property "Reference" "U?"
+		(property "Reference" "U4"
 			(at 35.56 41.91 0)
 			(effects
 				(font
@@ -175,7 +219,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "esc:esc"
 			(at 35.56 50.8 0)
 			(effects
 				(font
@@ -211,7 +255,7 @@
 		(instances
 			(project "auv_pcb"
 				(path "/e8907c08-8650-4764-8307-d7b0333da0bd/c75bd509-78bf-411c-83b5-a0a70668dca0"
-					(reference "U?")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -226,7 +270,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "753969c9-fa0e-4e80-81cc-0e947995dc88")
-		(property "Reference" "U?"
+		(property "Reference" "U3"
 			(at 35.56 29.21 0)
 			(effects
 				(font
@@ -242,7 +286,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "esc:esc"
 			(at 35.56 38.1 0)
 			(effects
 				(font
@@ -278,7 +322,7 @@
 		(instances
 			(project ""
 				(path "/e8907c08-8650-4764-8307-d7b0333da0bd/c75bd509-78bf-411c-83b5-a0a70668dca0"
-					(reference "U?")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -293,7 +337,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "782f7742-6bea-4bcb-81dc-8ad46f3e84e5")
-		(property "Reference" "U?"
+		(property "Reference" "U5"
 			(at 35.56 55.88 0)
 			(effects
 				(font
@@ -309,7 +353,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "esc:esc"
 			(at 35.56 64.77 0)
 			(effects
 				(font
@@ -345,7 +389,7 @@
 		(instances
 			(project "auv_pcb"
 				(path "/e8907c08-8650-4764-8307-d7b0333da0bd/c75bd509-78bf-411c-83b5-a0a70668dca0"
-					(reference "U?")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -360,7 +404,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9efc51b1-b5e9-43d4-9c55-948bcf0976ff")
-		(property "Reference" "U?"
+		(property "Reference" "U6"
 			(at 35.56 69.85 0)
 			(effects
 				(font
@@ -376,7 +420,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "esc:esc"
 			(at 35.56 78.74 0)
 			(effects
 				(font
@@ -412,7 +456,7 @@
 		(instances
 			(project "auv_pcb"
 				(path "/e8907c08-8650-4764-8307-d7b0333da0bd/c75bd509-78bf-411c-83b5-a0a70668dca0"
-					(reference "U?")
+					(reference "U6")
 					(unit 1)
 				)
 			)
